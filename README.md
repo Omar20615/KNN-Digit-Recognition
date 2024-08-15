@@ -4,8 +4,7 @@ This project aims to classify hand-written digits ('3', '8', and '6') using the 
 
 
 
-KNN_Digit_Classifier.py
-
+KNN_Digit_Classifier.py:
 This script implements a basic KNN classifier for hand-written digit classification. The digits '3', '8', and '6' are extracted from the USPS dataset and used to create a training set. The key steps include:
 
 Custom Distance Calculation: A Euclidean distance function is used to calculate distances between digit instances.
@@ -16,8 +15,7 @@ Visualization of Errors: The script includes a visualization of misclassified di
 
 
 
-KNN_Digit_Feature_Extractor.py
-
+KNN_Digit_Feature_Extractor.py:
 This script builds upon the previous task by applying custom feature extraction techniques to improve the accuracy of the KNN classifier. The steps include:
 
 Feature Extraction: A custom feature extraction pipeline is applied to the digit images. This pipeline includes 5x5 and 3x3 convolutional filters along with max pooling to capture more detailed patterns in the images.
